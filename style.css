@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* text-decoration: none; */
+    /* list-style: none; */
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Martian Mono', monospace;
+    
+
+
+}
+
+body{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83, 83, 93);
+    
+}
+
+.home{
+    width: 80%;
+    height:6800px;
+    background-color: rgb(22, 19, 19);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+    
+}
+
+nav ul li , a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.content {
+    margin-left: 15%;
+    margin-top: 150px;
+    color: aliceblue;
+
+}
+
+img {
+    z-index: 1;
+    width: 50%;
+    margin: 30px 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.about h2{
+    display: inline-block;
+    font-size: 70px;
+    color: aliceblue;
+    margin: 0 15%;
+}
+
+.about p {
+    font-size: 15px;
+    margin: 3% 15%;
+    color:aliceblue;
+}
+
+.work h2{
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin: 10% 0;
+    
+}
+
+.image img{
+    width: 100%;
+    position: relative;
+    left: -30%;
+    border-radius: 30px;
+}
